@@ -17,6 +17,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/abc', function () {
+    return view('abc');
+});
+
+Route::get('/jspage1', function (){
+    return Inertia\Inertia::render('Page1');
+});
+
+Route::get('/jspage2', function (){
+    return Inertia\Inertia::render('Page2');
+});
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia\Inertia::render('Dashboard');
 })->name('dashboard');
