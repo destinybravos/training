@@ -1,16 +1,20 @@
 <template>
     <web-layout>
-        <destiny></destiny>
-        
+       <!-- <Destiny></Destiny> -->
+       <nyore></nyore>
     </web-layout>
 </template>
 
 <script>
 import WebLayout from "../Layouts/WebLayout";
 import Destiny from "../TestComponents/Destiny";
-
+import Nyore from '../TestComponents/Nyore'
 export default {
-    components: { WebLayout, Destiny }
+    components: {
+        WebLayout,
+        Destiny,
+        Nyore
+    }
 }
 
 </script>
