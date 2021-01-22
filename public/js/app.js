@@ -28731,7 +28731,7 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "text-white", attrs: { id: "footer" } }, [
-        _vm._v("\n        This is footer\n    ")
+        _vm._v("\n        This is footer \n    ")
       ])
     ])
   }

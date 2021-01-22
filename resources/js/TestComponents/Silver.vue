@@ -50,7 +50,7 @@
             </div>
         </div>
         <div id="footer" class="text-white">
-            This is footer
+            This is footer 
         </div>
         
     </div>
