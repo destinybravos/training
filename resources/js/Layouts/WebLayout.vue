@@ -9,6 +9,7 @@
             <a href="/about-us" class="py-2 px-4 hover:bg-blue-300"> About Us</a>
         </nav>
 
+        <!-- This will Slot in all page content -->
         <slot></slot>
     </div>
 </template>
