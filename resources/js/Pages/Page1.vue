@@ -2,7 +2,7 @@
     <web-layout>
         <destiny></destiny>
         <silver></silver>
-        <nyore></nyore>
+        <nyore></nyore> 
     </web-layout>
 </template>
 
