@@ -1,6 +1,6 @@
 <template>
     <web-layout>
-        <destiny></destiny>
+        
         
     </web-layout>
 </template>
